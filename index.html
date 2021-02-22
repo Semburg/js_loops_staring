@@ -1,22 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
 
-    <p style="color: gold;">while Do  -  1_7</p>
+    <p style="color: gold;">while Do - 1_7</p>
 
     <p id="whileDo"></p>
 
-    <p style="color: gold;">while Do  -  1_8</p>
+    <p style="color: gold;">while Do - 1_8</p>
     <p id="whileDoEvenNums">Gerade Zahlen bis 20: </p>
 
-    <p ></p>
-    
+
+    <p style="color: gold;">Inputs - 1_9</p>
+    <form action="">
+        <input type="number" name="" id="number_in">
+        <input type="button" value="word print!" onclick="checkNum()">
+    </form>
+    <p id="result_1_9"></p>
+
+
+    <p style="color: orange;">Inputs - 2_2</p>
+    <form action="">
+        <input type="number" name="" id="number_in2">
+        <input type="button" value="word print!" onclick="checkNum2()">
+    </form>
+    <p id="result_2_2">loop</p>
+
+
+    <p style="color: red;">Inputs - 3_2</p>
+    <form action="">
+        <input type="number" name="" id="number_in3">
+        <input type="button" value="word print!" onclick="checkNum3()">
+    </form>
+    <p id="result_3_2">loop</p>
+    <br>
+    <p style="color: red;">3_4</p>
+
+    <form action="">
+        <h2>Gib mir eine Zahl</h2>
+        <p>Ich werde alle Zahlen bis zu dieser Zahl addienren, wenn sie durch die ausgewählten Zahlen teilbar sind</p>
+
+
+        <label for="max_number">Maximale Zahl</label>
+        <input type="number" name="max_number" id="main_number"> <br>
+        <label for="num1">Erste Zahl</label>
+        <select name="num1" id="teil_num1">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select>
+        <br>
+        <label for="num2">Zweite Zahl</label>
+
+        <select name="num2" id="teil_num2">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select>
+
+        <input type="button" value="count!" onclick="showSum()">
+        <p id="showResult3_4"></p>
+        <p id="check_dividers"></p>
+    </form>
+    <p style="margin: 100px; padding: 100px;"></p>
+
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>
